@@ -2,10 +2,6 @@
 theme: minima
 # visit now https://ornate-kataifi-5fdd00.netlify.app/
 
-](https://ornate-kataifi-5fdd00.netlify.app/)
-
-# visit now https://e-commerce-website-delta-ruby.vercel.app/
-
 ## Authors
 
 - [@rohitashsingh](https://www.github.com/rohitashsingh89/)
