@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background:  #555;
+}
+.formcontainer {
+    width: 400px;
+    height: 100vh;
+    background-color: #555;
+    position: relative;
+    margin: auto;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+}
+.form-btn {
+    color: aqua;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.loginbox {
+    padding: 20px;
+}
+.form-btn span {
+    font-weight: bold;
+    margin: 20px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+#indicator {
+    width: 80px;
+    height: 3px;
+    background: #ff523b;
+    border: none;
+    width: 100px;
+    transform: translateX(10px);
+}
+
+
+    /* calculator css */
+
+.row1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.col1 {
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: black;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    text-align: center;
+    padding: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.5s;
+    
+    box-shadow: inset 0px 5px 10px 0px rgb(0 255 255 / 70%);
+}
+.col1:hover {
+    transform: translateY(-3px);
+}
+.calci {
+    width: 80%;
+    text-align: end;
+    background: #555;
+    margin: 0 20px;
+    padding: 10px;
+    font-size: 20pt;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
