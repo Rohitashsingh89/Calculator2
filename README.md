@@ -2,8 +2,7 @@
 theme: minima
 # visit now https://ornate-kataifi-5fdd00.netlify.app/
 
-
-It is a multi Tasking Calculator 
+](https://ornate-kataifi-5fdd00.netlify.app/)
 
 # visit now https://e-commerce-website-delta-ruby.vercel.app/
 
