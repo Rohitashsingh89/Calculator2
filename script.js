@@ -6,15 +6,24 @@ Array.from(buttons).forEach((button)=> {
         try {
             if(e.target.innerHTML == '=') {
                 string = eval(string);
-                document.querySelector('input').value = string; 
+                if(string == Infinity || string == -Infinity){
+                    document.querySelector('input').value = "Divisible By Zero";
+                } else {
+                    document.querySelector('input').value = string; 
+                }
             }
             else if(e.target.innerHTML == 'AC') {
                 string = "";
                 document.querySelector('input').value = string; 
             }
             else if(e.target.innerHTML == '√') {
-                string = Math.sqrt(string);
-                document.querySelector('input').value = string; 
+                if(string < 0) {
+                    document.querySelector('input').value = "Invalid Input Value"
+                }
+                else {
+                    string = Math.sqrt(string);
+                    document.querySelector('input').value = string; 
+                }
             }
             else if(e.target.innerHTML == 'Del') {
                 string = string.slice(0, string.length - 1)
